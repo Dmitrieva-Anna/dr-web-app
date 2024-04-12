@@ -1,0 +1,29 @@
+:root {
+    --color-green: #69B42E;
+    --color-green-light: #99cc71;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-grey: #666666;
+    --color-grey-light: #CCCCCC;
+    --color-grey-bg: #F2F2F2;
+    --color-black-bg: #1A1A1A;
+
+    --radius-lg: 32px;
+    --radius-md: 10px;
+    --radius-sm: 5px;
+
+    /*default*/
+    --spacer: 8px;
+}
+
+@media screen and (max-width: 480px) {
+    :root {
+        --spacer: 4px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    :root {
+        --spacer: 3px;
+    }
+}

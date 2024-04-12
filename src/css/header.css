@@ -1,0 +1,14 @@
+.header {
+  padding: calc(var(--spacer) * 10) 0 calc(var(--spacer) * 4) 0;
+}
+
+@media (max-width: 320px) {
+  .header-image {
+    max-width: 170px;
+    height: auto;
+  }
+}
+
+
+
+

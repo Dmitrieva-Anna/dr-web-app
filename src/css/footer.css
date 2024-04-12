@@ -1,0 +1,37 @@
+.footer {
+    background-color: var(--color-black-bg);
+    padding: calc(var(--spacer) * 8);
+    margin-top: 166px;
+}
+
+.footer__container {
+    width: 100%;
+}
+
+.company-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.company-name {
+    display: flex;
+    column-gap: 12px;
+}
+
+.company-info {
+    max-width: 368px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: calc(var(--spacer) * 8) 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        margin-top: 48px;
+        padding: calc(var(--spacer) * 8) 0;
+    }
+}
