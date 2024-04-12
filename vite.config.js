@@ -5,6 +5,7 @@ import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig({
   root: 'src',
+  base: '/dr-web-app/',
   build: {
     rollupOptions: {
       input: glob.sync('./src/*.html'),
