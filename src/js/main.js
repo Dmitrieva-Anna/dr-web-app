@@ -9,4 +9,5 @@ const getActualYear = () => {
 
 document.addEventListener('DOMContentLoaded', getActualYear, false);
 
-import.meta.glob(['../img/**'])
+/** Добавление статики в сборку */
+import.meta.glob(['../img/**']);
