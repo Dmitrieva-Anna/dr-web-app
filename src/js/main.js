@@ -8,3 +8,5 @@ const getActualYear = () => {
 }
 
 document.addEventListener('DOMContentLoaded', getActualYear, false);
+
+import.meta.glob(['../img/**'])
