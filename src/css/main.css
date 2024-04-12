@@ -92,14 +92,14 @@
 }
 
 .services-card--first {
-    background-image: url("../img/play_mobile.png");
+    background-image: url("../../public/img/play_mobile.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: right bottom;
 }
 
 .services-card--second {
-    background-image: url("../img/settings.png");
+    background-image: url("../../public/img/settings.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: right bottom;
